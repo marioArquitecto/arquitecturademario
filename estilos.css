@@ -17,7 +17,7 @@ body{
 }
 
 .titulo{
-   color: #DE3C48; 
+   color: #000; 
    font-size: 30px;
    text-align: center;
    margin-bottom: 60px ;
@@ -26,9 +26,9 @@ body{
 header{
     width: 100%;
     height: 600px;
-    background: #200122;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, hsla(0, 100%, 22%, 0.608), hsla(296, 94%, 7%, 0.603)), url(../pagina1/img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, hsla(0, 100%, 22%, 0.607), hsla(295, 94%, 7%, 0.601)), url(../pagina1/img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffe6e9, hsla(164, 35%, 19%, 0.131)da), url(img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ffe6e9, hsla(164, 35%, 19%, 0.347)), url(img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: cover;
 background-attachment: fixed;
 position: relative; 
@@ -67,12 +67,12 @@ header .textos-header{
 .textos-header h1{
     font-size: 50px;
     
-    color: #fff;
+    color: #000;
 }
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color:#fff;
+    color:#000;
 }
 .wave{
     position: absolute;
@@ -102,8 +102,8 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background: #DE3C48;
-    color: #f3d8ff;
+    background: #ffe6e9;
+    color: #000;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -121,7 +121,7 @@ main .sobre-nosotros{
 }
 
 .portafolio{
-   background: #f3d8ff; 
+   background: #fff; 
 }
 
 .galeria-port{
@@ -154,7 +154,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(75, 6, 132, 0.344);
+    background: #ffe6e9a9;
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -180,7 +180,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #FDE992;
+    background: #ffe6e9;
     display: flex;
     width: 46%;
     height: 200px;
@@ -212,7 +212,7 @@ main .sobre-nosotros{
 }
 
 .about-services{
-    background: #f3d8ff;
+    background: #fff;
     padding-bottom: 30px;
 
 }
@@ -243,7 +243,7 @@ main .sobre-nosotros{
 }
 
 footer{
-    background: #DCDCDC;
+    background: hsla(353, 100%, 95%, 0.412);
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -300,7 +300,7 @@ footer{
 }
 
 .imagen-port{
-   width: 44%; 
+   width: 30%; 
 }
 
 .cards{
