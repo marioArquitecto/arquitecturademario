@@ -1,181 +1,152 @@
-<!Doctype html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>Mario Sotelo</title>
-        
-        <scrip src="thml2pdf.bundle.min.js"></scrip>
-        <scrip src="script.js"></scrip>
-        <link rel="stylesheet" href="estilos.css">
-        <link rel="shortcut icon" href="img/img1.jpg" type="image/x-icon">
-        <link rel="stylesheet" href="estilos.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@419&display=swap" rel="stylesheet">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (max-width:768px)"
+			href="/css/mobile.css"
+		/>
+		<title>Bienvenido a mi portafolio.</title>
+	</head>
     <body>
-        <strong>preciona el siguiente boton para crear un PDF</strong>
-        <button id="#btnCrearPdf">click aqui!</button>
-        <header>
-            <nav>
-                <a href="#">inicio</a><s></s>
-                <a href="#">acerca de</a><s></s>
-                <a href="#">portafolio</a><s></s>
-                <a href="#">servicios</a><s></s>
-                <a href="#">contacto</a><s></s>
-            </nav>
-            <selection class="textos-header">
-            <h1>SERVICIOS DE ARQUITECTURA</h1>
-            <h2>Lo que usted necesita nosotros lo diseñamos.</h2>    
-        </selection>
-            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff
-                ;"></path></svg></div>
-
+		<header id="mainheader">
+			<nav id="navbar">
+				<div class="container">
+					<h1 class="logo"><a href="#mainheader">Book Profecional.</a></h1>
+					<ul>
+						<li><a href="#mainheader">Inicio</a></li>
+						<li><a href="#portfolio">Book Profecional</a></li>
+						<li><a href="#about">Sobre mí</a></li>
+						<li><a href="#contact">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+            <div id="showcase">
+				<div class="container">
+					<div class="showcase-row">
+						<div class="showcase-row-title">
+							<p>Creativo, Diseñador, Capacidad comunicativa, Detallismo</p>
+							<h1 class="display-1">
+								Arquitecto<br /><span class="txt-orange">Dibujante de sueños</span>
+							</h1>
+							<p class="large">
+								Dibujar planos, utilizar el AutoCAD, gestionar proyectos y presupuestos.
+							</p>
+							<a href="#portfolio" class="btn btn-round btn-dark"
+								>Mi portafolio</a
+							>
+						</div>
+						<div class="showcase-row-img">
+							<img src="/img/showcase.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
         </header>
-    <main>
-        <section class="contenedor sobre-nosotros">
-        <h2 class="titulo">Conoce nuestro trabajo</h2>
-        <div class="contenedor-sobre-nosotros"> 
-            <img src="img/img12.jpg" alt="" class="imagen.about-us">
-            <div class="contenido-textos">
-            <h3><span>1</span>Qué hace un arquitecto en su trabajo</h3>
-            <p>La labor principal de un arquitecto consiste en planificar y diseñar planos para edificios, viviendas, oficinas y cualquier otro tipo de estructuras. Pueden crear espacios interiores o exteriores trabajando en proyectos públicos y privados. Para ello, se dedican a materializar las ideas de sus clientes o sus proyectos propios.</p>    
-            <h3><span>2  </span>Responsabilidades de un arquitecto</h3>
-            <p>°Crear y presentar propuestas de diseño, informes, solicitudes y contratos.
-            </p>
-            <p>°Competir con otros profesionales a través de la presentación de documentos de licitación y realización de presentaciones con el objetivo de ganar proyectos.</p>
-            <p>°Discutir con los clientes los objetivos, necesidades y presupuesto de los proyectos.</p>
-            <p>°Ser el enlace con los profesionales de construcción sobre la viabilidad de los planes potenciales.</p>
-            <p>°Respetar los estándares de diseño de la industria.</p>
-        </div>
-        </div>    
-    </section>
-<section class="portafolio"> 
-    <div class="contenedor">
-        <h2 class ="titulo">portafolio</h2>
-        <div class="galeria-port">
-            <div class="imagen-port">
-        <img src="img/img9.jpg" alt="">
-        <div class="hover-galeria">
-            <img src="img/icono1.png" alt="">
-            <p>Nuestro trabajo </p>
-        </div>
-            </div>
-            <div class="imagen-port">
-                <img src="img/img2.jpg" alt="">
-                <div class="hover-galeria">
-                    <img src="img/icono1.png" alt="">
-                    <p>Nuestro trabajo </p>
-                </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/img3.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
-                            <p>Nuestro trabajo </p>
-                        </div>
-                            </div>
-                            <div class="imagen-port">
-                                <img src="img/img4.jpg" alt="">
-                                <div class="hover-galeria">
-                                    <img src="img/icono1.png" alt="">
-                                    <p>Nuestro trabajo </p>
-                                </div>
-                                    </div>
-                                    <div class="imagen-port">
-                                        <img src="img/img5.jpg" alt="">
-                                        <div class="hover-galeria">
-                                            <img src="img/icono1.png" alt="">
-                                            <p>Nuestro trabajo </p>
-                                        </div>
-                                            </div>
-                                            <div class="imagen-port">
-                                                <img src="img/img6.jpg" alt="">
-                                                <div class="hover-galeria">
-                                                    <img src="img/icono1.png" alt="">
-                                                    <p>Nuestro trabajo </p>
-                                                </div>
-                                                    </div>
-                                                    <div class="imagen-port">
-                                                        <img src="img/img7.jpg" alt="">
-                                                        <div class="hover-galeria">
-                                                            <img src="img/icono1.png" alt="">
-                                                            <p>Nuestro trabajo </p>
-                                                        </div>
-                                                            </div>
-                                                            <div class="imagen-port">
-                                                                <img src="img/img8.jpg" alt="">
-                                                                <div class="hover-galeria">
-                                                                    <img src="img/icono1.png" alt="">
-                                                                    <p>Nuestro trabajo </p>
-                                                                </div>
-                                                                    </div>   
-        </div>
-    </div>
-</section>  
-<section class="clientes contenedor">
-    <h2 class="titulo">Datos personales.</h2>
-<div class="cards">
-<div class="card">
-    <img src="img/face1.jpg" alt="">
-<div class="contenido-texto-card"> 
-    <h4>Mario Alberto Sotelo Ortiz</h4>
-    <h4></h4>
-    <p>Hola mucho gusto, soy un estudiante de arquitectura, me apaciona mucho esto y me gustaria que puedan conocer mi trabajo y asi poder ejercer mejor mi carrera y desempeño en ambito laboral.</p>
-</div> 
-</div>
-<div class="card">
-    <img src="img/face2.jpg" alt="">
-<div class="contenido-texto-card"> 
-    <h4>Datos</h4>
-    <p>Tengo 23 años, actualmente vivo en emiliano zapata, Morelos y estudio la carrera de arquitectura.</p>
-</div> 
-</div>
-</div>
-</section>
-<section class="about-services">
-    <div class="contenedor">
-        <h2 class="titulo">nuestros servicios</h2>
-        <div class="servicio-cont">
-            <div class="servicio-ind">
-                <img src="img/ilustracion1.jpg" alt="">
-                <h3>IDEA</h3>
-                <p>Traemos ideas a la vida. Ese es nuestro objetivo y nuestra visión, por lo que hacemos todo lo posible para imaginar profundamente su idea.</p>  
-            </div>
-            <div class="servicio-ind">
-                <img src="img/ilustracion2.jpg" alt="">
-                <h3>DISEÑO</h3>
-                <p>Nuestro proceso de diseño se adapta a sus necesidades,involucra varias etapas,desde bocetos iniciales y modelado en 2D y 3D</p>  
-            </div>
-            <div class="servicio-ind">
-                <img src="img/ilustracion3.jpg" alt="">
-                <h3>PRECISION</h3>
-                <p>Usted lo necesita y nostros nos ocupamos de hacer realidad sus sueños</p>  
-                <div class="servicio-ind">
-                    <img src="img/ilustracion4.jpg" alt="">
-                     
-                </div>
-            </div>
-        </div>
-    </div>   
-</section>
-</main>
-<footer>
-    <div class="contenedor-footer">
-        <div class="content-foo">
-            <h4>Telefono</h4>
-            <p>7775131365</p>
-        </div>
-        <div class="content-foo">
-            <h4>Email</h4>
-            <p>mario_sotelo@gmailcom</p>
-        </div>
-        <div class="content-foo">
-            <h4>Ubicacion</h4>
-            <p>Emiliano Zapata Morelos</p>
-        </div>
-    </div>
-    <h2 class="titulo-final">&copy; Mario Alberto Sotelo </h2>
-</footer>
+        
+        <section id="portfolio">
+			<div class="container">
+				<h2>Mi trabajo</h2>
+				<p>
+					
+                    Produje maquetas para el desarrollo de nuevos complejos
+				</p>
+				<div class="portfolio-row">
+					<a href="#"><img src="/img/portfolio-1.jpg" alt="" /></a>
+					<a href="#"><img src="/img/portfolio-2.jpg" alt="" /></a>
+					<a href="#"><img src="/img/portfolio-3.jpg" alt="" /></a>
+				</div>
+				<div class="portfolio-row">
+					<a href="#"><img src="/img/portfolio-4.jpg" alt="" /></a>
+					<a href="#"><img src="/img/portfolio-5.jpg" alt="" /></a>
+					<a href="#"><img src="/img/portfolio-6.jpg" alt="" /></a>
+				</div>
+			</div>
+		</section>
 
+        <section id="about">
+			<div class="container">
+				<h2>Sobre mí</h2>
+				<p>
+					Mario Alberto Sotelo Ortiz
+                    +52 1 777 513 1365
+                    mario.sotelo5@gmail.com
+				</p>
+				<p>
+					De la carrera en arquitectura en busca de un puesto como arquitecto técnico. Tras mi experiencia como estudiante en prácticas
+                tuve la oportunidad de perfeccionar mis conocimientos de AutoCAD y de familiarizarme con la legislación de eficiencia energética y energías renovables. Deseo utilizar mi iniciativa y mis habilidades para colaborar y 
+                alcanzar sus objetivos.
+                    Ya recién graduado de la carrera de arquitectura voy en busca de asegurar mi primer empleo. A lo largo de mi trayectoria universitaria, me mantuve informado y practicando en diseños de ambientes 3D y montajes.
+                    también desarrollé modelos 3D para algunos colaboradores,generé´reportes semanales para dar seguimiento al progreso de las obras.
+                    Colaboré con arquitectos con experiencia, para generar calendarios de trabajo.
+				</p>
+				<p>
+					Diseñé planos en 2D utilizando AutoCAD los cuales fueron usados en 3 proyectos diferentes. Realicé una investigacion en materiales y técnicas sustentables el cual ayudó a reducir el impacto ecológico. Me mantuve enriqueciendo mi aprendizaje, creando y diseñando edificaciones y estructuras, como renovaciones de edificios y estructuras.
+				</p>
+			</div>
+		</section>
+
+        <section id="contact">
+			<div class="container">
+				<h2>contáctame</h2>
+				<p>
+				
+
+                    +52 1 777 513 1365 
+                    mario.sotelo5@gmail.com
+				</p>
+				<div class="contact-row">
+					<div class="contact-row-img">
+						<img src="/img/contact.png" alt="" />
+					</div>
+					<div class="contact-row-form">
+						<h4>¡Ponerse en contacto!</h4>
+						<form action="">
+							<div class="form-group">
+								<label for="name">Nombre</label>
+								<input type="text" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label for="message">Mensaje</label>
+								<textarea
+									name="message"
+									id=""
+									cols="30"
+									rows="10"
+									class="form-control"
+								></textarea>
+							</div>
+							<button class="btn btn-dark">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <footer id="mainfooter">
+			<div class="container">
+				<a
+					href="https://twitter.com/irimaya?ref_src=twsrc%5Etfw"
+					class="twitter-follow-button"
+					data-show-count="false"
+					>Follow </a
+				>
+				<script
+					async
+					src="https://platform.twitter.com/widgets.js"
+					charset="utf-8"
+				></script>
+			</div>
+		</footer>
+	</body>
+</html>
     </body>
-    </html>                     
+</html>
